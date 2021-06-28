@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = ioos_pkg_skeleton
+SPHINXPROJ    = nmme_tools
 SOURCEDIR     = source
 BUILDDIR      = build
 

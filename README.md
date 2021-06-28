@@ -1,4 +1,4 @@
-## ioos_pkg_skeleton
+## nmme_tools
 
 [![Build Status](https://travis-ci.com/ioos/ioos-python-package-skeleton.svg?branch=master)](https://travis-ci.com/ioos/ioos-python-package-skeleton)
 
@@ -13,32 +13,32 @@ URLs for the docs and code.
 For `conda` users you can
 
 ```shell
-conda install --channel conda-forge ioos_pkg_skeleton
+conda install --channel conda-forge nmme_tools
 ```
 
 or, if you are a `pip` users
 
 ```shell
-pip install ioos_pkg_skeleton
+pip install nmme_tools
 ```
 
 ### Example
 
 ```python
-from ioos_pkg_skeleton import ioos_pkg_skeleton
+from nmme_tools import nmme_tools
 
 
-ioos_pkg_skeleton.meaning_of_life_url()
+nmme_tools.meaning_of_life_url()
 ```
 
 
 ## Get in touch
 
-Report bugs, suggest features or view the source code on [GitHub](https://github.com/ioos/ioos_pkg_skeleton/issues).
+Report bugs, suggest features or view the source code on [GitHub](https://github.com/ioos/nmme_tools/issues).
 
 
 ## License and copyright
 
-ioos_pkg_skeleton is licensed under BSD 3-Clause "New" or "Revised" License (BSD-3-Clause).
+nmme_tools is licensed under BSD 3-Clause "New" or "Revised" License (BSD-3-Clause).
 
-Development occurs on GitHub at <https://github.com/ioos/ioos_pkg_skeleton>.
+Development occurs on GitHub at <https://github.com/ioos/nmme_tools>.

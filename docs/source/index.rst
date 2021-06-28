@@ -6,10 +6,10 @@ Package Guidelines
 
    how2package4ioos.md
 
-ioos_pkg_skeleton
+nmme_tools
 =================
 
-What is ioos_pkg_skeleton?
+What is nmme_tools?
 --------------------------
 
 The best module ever written!
@@ -20,7 +20,7 @@ The best module ever written!
    :caption: Contents:
 
    tutorial.ipynb
-   ioos_pkg_skeleton
+   nmme_tools
 
 Indices and tables
 ==================

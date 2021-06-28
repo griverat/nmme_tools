@@ -1,7 +1,7 @@
 """
-ioos_pkg_skeleton
+nmme_tools
 
-My awesome ioos_pkg_skeleton
+My awesome nmme_tools
 """
 
 import numpy as np

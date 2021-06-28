@@ -3,7 +3,7 @@ include README.md
 include pyproject.toml
 
 # CHANGE PKG NAME HERE
-graft ioos_pkg_skeleton
+graft nmme_tools
 
 prune docs
 prune tests

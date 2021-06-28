@@ -35,4 +35,4 @@ jobs:
       shell: bash -l {0}
       run: |
         source activate TEST
-        pytest -rxs --cov=ioos_pkg_skeleton tests
+        pytest -rxs --cov=nmme_tools tests

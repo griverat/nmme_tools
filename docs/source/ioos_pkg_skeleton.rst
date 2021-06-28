@@ -1,7 +1,7 @@
-:mod:`ioos_pkg_skeleton API`
+:mod:`nmme_tools API`
 ----------------------------
 
-.. automodule:: ioos_pkg_skeleton.ioos_pkg_skeleton
+.. automodule:: nmme_tools.nmme_tools
    :members:
    :undoc-members:
    :show-inheritance:
