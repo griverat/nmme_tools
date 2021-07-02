@@ -2,7 +2,10 @@
 Postprocessing module that morphs the data structures in convenient ways
 """
 
+import datetime
+
 import dask
+import xarray as xr
 
 
 def combine_hindcast_forecast(hindcast, forecast, propagate_nans=True):
@@ -26,3 +29,15 @@ def mask_data(ds, mask_mapping):
     for var, missing_value in mask_mapping.items():
         ds[var] = ds[var].where(ds[var] != missing_value)
     return ds
+
+
+def shift_leads(ds):
+    """
+    Shift the time dimension according to the lead values
+    """
+    new_ds = []
+    for lead in ds.lead:
+        _ds = ds.sel(lead=lead)
+        _ds["time"] = _ds["time"] + datetime.timedelta(days=int(30 * _ds.lead.data))
+        new_ds.append(_ds)
+    return xr.concat(new_ds, dim="lead")
