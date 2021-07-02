@@ -4,6 +4,7 @@ channels:
 dependencies:
   - numpy
   - xarray
+  - dask
   - requests
   - black
   - check-manifest
